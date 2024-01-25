@@ -17,4 +17,9 @@ ul {
     text-align: center;
     list-style-position: inside;
     color: blue;
+    list-style-image: url("../IMG/Custom-Icon-Design-Pretty-Office-8-Accept.16.png");
+}
+
+ul li:nth-child(even) {
+    color: red
 }
