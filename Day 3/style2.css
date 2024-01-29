@@ -1,14 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
+/* Begin Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+}
+
+/* End Reset */
+
+/* Utility Classes */
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+/* End Utility Classes */
 body {
     font-family: "Nunito", sans-serif;
     min-height: 100vh;
+    background-color: aliceblue;
+    background-image: url(../IMG/avengers-minimalist-0vt0iaej1fq10m6w.jpg), linear-gradient(to left, steelblue, #fff);
+    background-repeat: repeat, no-repeat;
+    background-position: right top;
+    background-size: 70%, auto;
+}
+
+.container {
+    background-color: aqua;
+    background-image: url('../IMG/avengers-symbol-4i304qe1vubp2rzu.jpg');
+    background-repeat: repeat;
 }
 
 .hero {
@@ -18,10 +49,16 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
+
+    background-color: rgba(0, 0, 0, 0.35);
+    background-position: top right;
+    border-radius: 10px;
 }
 
 .h1 {
     font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px blue;
 }
 
 .profile-pic-figure {
@@ -36,7 +73,7 @@ body {
     border-radius: 50%;
 }
 
-.example {
+/* .example {
     margin-top: 1rem;
     padding-left: 20px;
     border: 1px solid red;
@@ -45,4 +82,15 @@ body {
 .example img {
     width: 25%;
     height: auto;
+} */
+
+.clip {
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url("../IMG/Avengers_Png_With_Transparent_Background_-_Thor_Avengers_Comics__Png_Download_1024x999__-_PngFind-removebg-preview.png");
+    background-size: 50%;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.267);
+    border: 10px auto;
 }
