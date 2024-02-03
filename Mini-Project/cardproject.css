@@ -99,7 +99,7 @@ footer {
     width: min(100%, 350px);
     background-color: #cbd5e1;
     border: 2px solid #000;
-    border-radius: 15%;
+    border-radius: 10%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@ footer {
 
 .card figure {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
 
 .card img {
@@ -187,9 +187,9 @@ footer {
         width: min(100%, 400px);
     }
 
-    .card:nth-child(2) {
+    /* .card:nth-child(2) {
         order: -1;
-    }
+    } */
 }
 
 /* || XL */
