@@ -125,6 +125,7 @@ footer {
     font-size: 2rem;
     margin: 1rem;
     text-align: center;
+    text-wrap: wrap;
 }
 
 .card:nth-child(1) figcaption::before {
@@ -156,9 +157,9 @@ footer {
         width: min(100%, 400px);
     }
 
-    .card:last-child {
+    /* .card:last-child {
         order: -1;
-    }
+    } */
 
     nav {
         display: none;
