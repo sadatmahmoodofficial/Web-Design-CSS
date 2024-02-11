@@ -331,5 +331,12 @@ tfoot td {
 
     .header__h1::after {
         content: ' 🌮';
-    }    
+    }
+
+    .menu__header,
+    .menu__cr,
+    .menu__sf,
+    .menu__cs {
+        font-size: 125%;
+    }
 }
